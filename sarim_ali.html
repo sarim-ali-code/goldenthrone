@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE GOLDEN THRONE | Official Imperial Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Inter:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header class="nav-wrapper">
+        <div class="logo">GOLDEN<span>THRONE</span></div>
+        <nav class="glass-nav">
+            <div class="nav-indicator"></div>
+            <button class="tab-btn active" onclick="openTab(event, 'home')">Intel</button>
+            <button class="tab-btn" onclick="openTab(event, 'features')">Key Features</button>
+            <button class="tab-btn" onclick="openTab(event, 'editions')">Editions</button>
+            <button class="tab-btn" onclick="openTab(event, 'currency')">Buy UJ</button>
+            <button class="tab-btn" onclick="openTab(event, 'specs')">System</button>
+            <button class="tab-btn" onclick="openTab(event, 'faq')">FAQ</button>
+            <button class="tab-btn" onclick="openTab(event, 'pro')">Go Pro</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="home" class="tab-content active">
+            <div class="full-hero-banner animate-in">
+                <div class="hero-overlay-content">
+                    <h1 class="reveal-text">CLAIM THE THRONE</h1>
+                    <p class="subtitle">A MASSIVE MULTIPLAYER OPEN WORLD ODYSSEY</p>
+                    
+                    <div class="hero-description-card">
+                        <h2>THE DIGITAL MONARCHY</h2>
+                        <p><strong>Inception:</strong> Established 2024 by Lead Architect <strong>Sarim Ali</strong>.</p>
+                        <p>The Golden Throne is a sovereign digital nation where every action ripples through a persistent world. Built on the revolutionary Apex-Engine, we deliver 1:1 physics, real-time lighting, and an economy driven entirely by the players. Our invention of the "Neural-Sync" latency system ensures that combat is felt before it is seen. Your legacy starts here.</p>
+                        <div class="author-stamp">VERIFIED BY: IMPERIAL OFFICE OF SARIM ALI</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="tab-content">
+            <h1 class="reveal-text">7 CORE MODES</h1>
+            <div class="feature-grid">
+                <div class="glass-card animate-in"><div class="card-inner"><h3>01. Open World</h3><p>Explore 400sq km of seamless neon terrain.</p></div></div>
+                <div class="glass-card animate-in"><div class="card-inner"><h3>02. Throne Siege</h3><p>100-player Battleground for the central spire.</p></div></div>
+                <div class="glass-card animate-in"><div class="card-inner"><h3>03. Competitive Ranked</h3><p>5v5 tactical neural-link combat.</p></div></div>
+                <div class="glass-card animate-in"><div class="card-inner"><h3>04. Neon Racing</h3><p>High-speed hovercraft racing with lethal weaponry.</p></div></div>
+                <div class="glass-card animate-in"><div class="card-inner"><h3>05. Dungeon Protocol</h3><p>4-player Co-op raids into the Cyber-Core.</p></div></div>
+                <div class="glass-card animate-in"><div class="card-inner"><h3>06. Trade District</h3><p>Player-to-player live auction house and economy.</p></div></div>
+                <div class="glass-card animate-in"><div class="card-inner"><h3>07. Creative Nexus</h3><p>Design your own sectors and monetize your world.</p></div></div>
+            </div>
+        </section>
+
+        <section id="editions" class="tab-content">
+            <h1 class="reveal-text">SELECT VERSION</h1>
+            <div class="pricing-grid">
+                <div class="glass-card animate-in"><div class="card-inner">
+                    <div class="mystery-badge">TOP SECRET</div>
+                    <h3>Golden Throne: Mystery</h3><div class="price">???</div><button class="neon-btn">REVEAL SOON</button>
+                </div></div>
+                <div class="glass-card animate-in"><div class="card-inner">
+                    <h3>Golden Throne Online</h3><div class="price">FREE</div><button class="neon-btn">DOWNLOAD</button>
+                </div></div>
+                <div class="glass-card featured animate-in"><div class="card-inner">
+                    <h3>Ultimate Edition</h3><div class="price">$89</div><button class="neon-btn">PURCHASE</button>
+                </div></div>
+                <div class="glass-card animate-in"><div class="card-inner">
+                    <h3>Golden Throne 2</h3><div class="price">$69</div><button class="neon-btn">PRE-ORDER</button>
+                </div></div>
+            </div>
+        </section>
+
+        <section id="currency" class="tab-content">
+            <h1 class="reveal-text">UNKNOWN JEWELS</h1>
+            <div class="pricing-grid">
+                <div class="glass-card uj-item"><div class="card-inner"><h3>100 UJ</h3><div class="price">Rs. 280</div></div></div>
+                <div class="glass-card uj-item"><div class="card-inner"><h3>500 UJ</h3><div class="price">Rs. 1400</div></div></div>
+                <div class="glass-card uj-item featured"><div class="card-inner"><h3>1000 + 100 UJ</h3><div class="price">Rs. 2800</div></div></div>
+                <div class="glass-card uj-item featured"><div class="card-inner"><h3>5000 + 750 UJ</h3><div class="price">Rs. 11,200</div></div></div>
+                <div class="glass-card uj-item featured"><div class="card-inner"><h3>10000 + 2000 UJ</h3><div class="price">Rs. 22,400</div></div></div>
+            </div>
+        </section>
+
+        <section id="specs" class="tab-content">
+            <h1 class="reveal-text">SYSTEM REQUIREMENTS</h1>
+            <div class="specs-spread">
+                <div class="glass-card animate-left">
+                    <div class="card-inner">
+                        <h2 class="yellow">MINIMUM</h2>
+                        <div class="spec-line"><span>OS:</span> Windows 10 (64-bit)</div>
+                        <div class="spec-line"><span>CPU:</span> Intel Core i5-8400 / AMD Ryzen 5 1600</div>
+                        <div class="spec-line"><span>GPU:</span> GTX 1060 6GB / RX 580</div>
+                        <div class="spec-line"><span>RAM:</span> 12 GB High Speed</div>
+                        <div class="spec-line"><span>STORAGE:</span> 150 GB SSD Required</div>
+                    </div>
+                </div>
+                <div class="glass-card animate-right">
+                    <div class="card-inner">
+                        <h2 class="purple">ULTRA (4K/60FPS)</h2>
+                        <div class="spec-line"><span>OS:</span> Windows 11 (Latest)</div>
+                        <div class="spec-line"><span>CPU:</span> Intel i9-14900K / Ryzen 9 7950X</div>
+                        <div class="spec-line"><span>GPU:</span> RTX 4080 / RX 7900 XTX</div>
+                        <div class="spec-line"><span>RAM:</span> 32 GB DDR5 6000MHz</div>
+                        <div class="spec-line"><span>STORAGE:</span> 150 GB NVMe Gen4 SSD</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="tab-content">
+            <h1 class="reveal-text">THE ORACLE FAQ</h1>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">How do I claim my Golden Throne? <span>+</span></button>
+                    <div class="faq-answer">You must complete the 'Imperial Rite' tutorial and reach level 10 to qualify for Throne Sieges.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Is UJ refundable? <span>+</span></button>
+                    <div class="faq-answer">Unknown Jewels are a non-refundable digital commodity once the conversion protocol is initiated.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Can I play as a pacifist? <span>+</span></button>
+                    <div class="faq-answer">Yes, the Trade District and Creative Nexus allow for deep progression through architecture and trade.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What is the max party size for Raids? <span>+</span></button>
+                    <div class="faq-answer">The Cyber-Core raids support up to 4 players per squad for optimal synchronization.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How often does the map reset? <span>+</span></button>
+                    <div class="faq-answer">The 400sq km map is persistent. However, political control of sectors resets every 30 days.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Is the Apex-Engine compatible with controllers? <span>+</span></button>
+                    <div class="faq-answer">Yes, we support all standard HID controllers and customized VR-Neural setups.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What happens if I lose a Siege? <span>+</span></button>
+                    <div class="faq-answer">Losing a Siege results in a 24-hour ban from the Central Spire and a loss of Imperial Influence points.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How do I join the Neon Syndicate? <span>+</span></button>
+                    <div class="faq-answer">Factions are selected during the Ascension process on the "Go Pro" portal.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Are there monthly subscription fees? <span>+</span></button>
+                    <div class="faq-answer">Golden Throne Online is free-to-play. Only the Ultimate Edition requires a one-time purchase.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What is Neural-Sync? <span>+</span></button>
+                    <div class="faq-answer">Our patented system that eliminates input delay by predicting player movement via local processing.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Can I trade UJ with other players? <span>+</span></button>
+                    <div class="faq-answer">Yes, UJ can be traded for rare items or property deeds within the Trade District auction house.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Who is Sarim Ali? <span>+</span></button>
+                    <div class="faq-answer">The Lead Architect and Chief Overseer of the Golden Throne digital sovereignty.</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pro" class="tab-content">
+            <h1 class="reveal-text">ASCEND TO CITIZENSHIP</h1>
+            <div class="glass-card form-massive animate-in">
+                <div class="card-inner">
+                    <form id="proForm">
+                        <div class="form-grid">
+                            <div class="field">
+                                <label>Imperial Alias</label>
+                                <input type="text" placeholder="Character Name" required minlength="3">
+                            </div>
+                            <div class="field">
+                                <label>Secure Email</label>
+                                <input type="email" placeholder="email@mainframe.com" required>
+                            </div>
+                            <div class="field">
+                                <label>Biological Age</label>
+                                <input type="number" min="13" max="120" placeholder="Min 13+" required>
+                            </div>
+                            <div class="field">
+                                <label>Faction Choice</label>
+                                <select required>
+                                    <option value="">Select Faction</option>
+                                    <option>The Void Walkers</option>
+                                    <option>Neon Syndicate</option>
+                                    <option>Imperial Guard</option>
+                                </select>
+                            </div>
+                            <div class="field full">
+                                <label>Pledge of Loyalty</label>
+                                <textarea placeholder="Why do you wish to join the Throne?" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="terms" required>
+                            <label for="terms">I accept the terms of the Imperial Decree and Privacy Protocol.</label>
+                        </div>
+                        <button type="submit" class="neon-btn">INITIATE ASCENSION</button>
+                    </form>
+                    <div id="formFeedback"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="marquee-wrapper">
+        <div class="marquee-content">
+            <span>NETWORK: SECURE</span> <span>•</span> <span>CONQUEROR: SARIM_ALI</span> <span>•</span> <span>UJ RATE: 100:1</span> <span>•</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
